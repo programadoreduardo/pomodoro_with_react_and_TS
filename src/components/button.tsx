@@ -7,8 +7,10 @@ interface Props {
 }
 
 
-export function Button(props:Props): JSX.Element {
+export function Button(props: Props): JSX.Element {
     return (
-        <Button onClick={props.onClick} className={props.className}>{props.text}</Button>
+        <button onClick={props.onClick} className={props.className}>
+            {props.text}
+        </button>
     );
 }
