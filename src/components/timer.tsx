@@ -1,4 +1,3 @@
-import React from "react";
 import { secondsToTime } from "../utils/secondToTime";
 
 interface Props {
